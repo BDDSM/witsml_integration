@@ -18,7 +18,7 @@
   <defaultRoles>Role.Администрирование</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Фирма &quot;Фобизнес&quot;</vendor>
-  <version>0.1.2.03</version>
+  <version>0.1.2.04</version>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
