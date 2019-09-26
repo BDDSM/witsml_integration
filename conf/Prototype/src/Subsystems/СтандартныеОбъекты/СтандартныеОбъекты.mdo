@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ce0a655-ec36-4ff5-9afb-fd5a844086e1">
+  <name>СтандартныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.Администрирование</content>
+  <content>Role.ЗапускВебКлиента</content>
+  <content>Role.ЗапускВнешнегоСоединения</content>
+  <content>6c138ffd-057f-4f7d-af4d-1b1a589a9057</content>
+  <content>Role.ЗапускТолстогоКлиента</content>
+  <content>Role.ЗапускAutomation</content>
+  <content>Role.ЗапускТонкогоКлиента</content>
+  <content>Role.ПолныеПрава</content>
+  <content>SettingsStorage.ДляХраненияНастроекВнешнихОтчетов</content>
+</mdclass:Subsystem>

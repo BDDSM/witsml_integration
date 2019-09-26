@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fcc2d79-6daf-4646-81af-62515025751c">
+  <name>РаботаСGTIOnlineПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа СGTIOnline (Повторное использование)</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
