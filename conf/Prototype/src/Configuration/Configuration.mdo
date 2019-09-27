@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3037a4c7-58cb-4fcd-b5d1-d6ffd87abc86">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c688343b-71cf-4671-a123-ac06b90c54a5">
   <name>ПрототипБибилиотекиИнтеграцииGTIOnline</name>
   <synonym>
     <key>ru</key>
     <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.1</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f8105a85-e82f-4dc9-8a19-214a7c545298"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c4326d95-b714-4390-a50c-8bb44abee783"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d396a728-7d41-40a6-a632-a58845234f90"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0a916a49-31ee-42bf-8b8a-684e570b1de8"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="dec0949d-51d1-4033-ab88-f2a73e519bb9"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="09084019-a60e-4e62-a6c4-7f836843338c"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="42786bc2-52d5-46fc-b6b7-dc2572977609"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="466856a9-bd25-42fd-89e4-964d1617dfc0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c3de818e-7232-4e2e-9ae5-db5e50496f03"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4e13098e-30ea-4797-befc-d12ebd55ddf5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="890db5d3-70ee-4bd5-8582-41fffc6e06ab"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b9a90abb-178a-41b1-aeb0-7a2f9866e30d"/>
   <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -18,7 +18,7 @@
   <defaultRoles>Role.Администрирование</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <vendor>Фирма &quot;Фобизнес&quot;</vendor>
-  <version>0.1.2.04</version>
+  <version>0.1.2.05</version>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -42,7 +42,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.10</compatibilityMode>
-  <languages uuid="212779be-7e22-4eac-88ff-9c5a85842eaa">
+  <languages uuid="be25f8a4-5866-4c12-85bc-29cd063cc1d0">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -63,7 +63,5 @@
   <commonModules>CommonModule.РаботаСGTIOnline</commonModules>
   <commonModules>CommonModule.РаботаСGTIOnlineПовтИсп</commonModules>
   <wsReferences>WSReference.GTIONLINE</wsReferences>
-  <settingsStorages>SettingsStorage.ДляХраненияНастроекВнешнихОтчетов</settingsStorages>
   <dataProcessors>DataProcessor.ПроверкаGTI</dataProcessors>
-  <informationRegisters>InformationRegister.ТестовыйРегистр</informationRegisters>
 </mdclass:Configuration>

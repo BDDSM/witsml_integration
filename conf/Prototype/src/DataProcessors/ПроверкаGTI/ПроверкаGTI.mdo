@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПроверкаGTI.Form.Форма</defaultForm>
-  <forms uuid="07958ac3-0f5e-49c5-be90-7246828df94d">
+  <forms uuid="c51aaec9-4add-4c6f-a1c9-306a020e7539">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

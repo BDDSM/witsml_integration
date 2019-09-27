@@ -9,6 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ПроверкаGTI</content>
   <content>Role.ПодсистемаGTIONLINE</content>
-  <content>InformationRegister.ТестовыйРегистр</content>
   <subsystems>СпециальныеОбъекты</subsystems>
 </mdclass:Subsystem>
