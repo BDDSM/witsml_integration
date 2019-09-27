@@ -1,45 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
-	<setForNewObjects>true</setForNewObjects>
+	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
 		<name>Configuration.ПрототипБиблиотекиИнтеграцииGTIOnline</name>
 		<right>
 			<name>Administration</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>DataAdministration</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>UpdateDataBaseConfiguration</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ExclusiveMode</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ActiveUsers</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EventLog</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ThinClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>WebClient</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>ThickClient</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>ExternalConnection</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Automation</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>AllFunctionsMode</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>ConfigurationExtensionsAdministration</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtReports</name>
-			<value>false</value>
+			<name>Output</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>

@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>WSReference.GTIONLINE</content>
-  <content>CommonModule.РаботаСGTIOnline</content>
+  <content>CommonModule.РаботаСGTIOnlineВызовСервера</content>
   <content>CommonModule.РаботаСGTIOnlineПовтИсп</content>
   <parentSubsystem>Subsystem.GTIONLINE</parentSubsystem>
 </mdclass:Subsystem>

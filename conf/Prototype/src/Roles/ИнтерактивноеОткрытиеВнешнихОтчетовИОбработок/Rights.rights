@@ -6,7 +6,11 @@
 	<object>
 		<name>Configuration.ПрототипБиблиотекиИнтеграцииGTIOnline</name>
 		<right>
-			<name>ThickClient</name>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveOpenExtReports</name>
 			<value>true</value>
 		</right>
 	</object>

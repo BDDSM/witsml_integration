@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.ПрототипБибилиотекиИнтеграцииGTIOnline</name>
+		<name>Configuration.ПрототипБиблиотекиИнтеграцииGTIOnline</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>

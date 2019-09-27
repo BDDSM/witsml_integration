@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c688343b-71cf-4671-a123-ac06b90c54a5">
-  <name>ПрототипБибилиотекиИнтеграцииGTIOnline</name>
+  <name>ПрототипБиблиотекиИнтеграцииGTIOnline</name>
   <synonym>
     <key>ru</key>
-    <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.1</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.1</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="42786bc2-52d5-46fc-b6b7-dc2572977609"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="466856a9-bd25-42fd-89e4-964d1617dfc0"/>
@@ -17,13 +17,15 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.Администрирование</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
+  <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;Фобизнес&quot;</vendor>
-  <version>0.1.2.05</version>
+  <version>0.2.1.01</version>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.1</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.1</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
@@ -52,15 +54,17 @@
   </languages>
   <subsystems>Subsystem.GTIONLINE</subsystems>
   <subsystems>Subsystem.СтандартныеОбъекты</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.ЗапускAutomation</roles>
   <roles>Role.ЗапускВебКлиента</roles>
   <roles>Role.ЗапускВнешнегоСоединения</roles>
   <roles>Role.ЗапускТолстогоКлиента</roles>
   <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ПодсистемаGTIONLINE</roles>
   <roles>Role.ПолныеПрава</roles>
-  <commonModules>CommonModule.РаботаСGTIOnline</commonModules>
+  <commonModules>CommonModule.РаботаСGTIOnlineВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСGTIOnlineПовтИсп</commonModules>
   <wsReferences>WSReference.GTIONLINE</wsReferences>
   <dataProcessors>DataProcessor.ПроверкаGTI</dataProcessors>
