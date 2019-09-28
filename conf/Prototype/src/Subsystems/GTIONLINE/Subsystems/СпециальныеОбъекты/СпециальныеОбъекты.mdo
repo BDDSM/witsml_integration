@@ -9,5 +9,6 @@
   <content>WSReference.GTIONLINE</content>
   <content>CommonModule.РаботаСGTIOnlineВызовСервера</content>
   <content>CommonModule.РаботаСGTIOnlineПовтИсп</content>
+  <content>CommonTemplate.РаботаСGTIOnlineМакет</content>
   <parentSubsystem>Subsystem.GTIONLINE</parentSubsystem>
 </mdclass:Subsystem>
