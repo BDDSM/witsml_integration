@@ -7,7 +7,7 @@
 Документация от разработчиков протокола [WITSML_Core_API_Version_1.3.1.doc](doc/WITSML_Core_API_Version_1.3.1.doc)
 
 Проект 1С Enterprise Development Tools в каталоге "conf/Prototype"
-
+ 
 ### Версия 0.3.2.05
 
 Добавлен макет, для хранения шаблонов запросов сервиса;
