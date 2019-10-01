@@ -3,7 +3,7 @@
   <name>ПрототипБиблиотекиИнтеграцииGTIOnline</name>
   <synonym>
     <key>ru</key>
-    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.2</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.3</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="42786bc2-52d5-46fc-b6b7-dc2572977609"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="466856a9-bd25-42fd-89e4-964d1617dfc0"/>
@@ -20,16 +20,16 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;Фобизнес&quot;</vendor>
-  <version>0.2.3.01</version>
+  <version>0.3.2.05</version>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.2</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.3</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.2</value>
+    <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.3</value>
   </detailedInformation>
   <copyright>
     <key>ru</key>
@@ -64,9 +64,10 @@
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
   <roles>Role.ПодсистемаGTIONLINE</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.РаботаСGTIOnline_ШаблоныЗапросов</commonTemplates>
   <commonTemplates>CommonTemplate.РаботаСGTIOnlineМакет</commonTemplates>
   <commonModules>CommonModule.РаботаСGTIOnlineВызовСервера</commonModules>
-  <commonModules>CommonModule.РаботаСGTIOnlineПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСGTIOnlineВызовСервераПовтИсп</commonModules>
   <wsReferences>WSReference.GTIONLINE</wsReferences>
   <dataProcessors>DataProcessor.ПроверкаGTI</dataProcessors>
 </mdclass:Configuration>

@@ -8,7 +8,8 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>WSReference.GTIONLINE</content>
   <content>CommonModule.РаботаСGTIOnlineВызовСервера</content>
-  <content>CommonModule.РаботаСGTIOnlineПовтИсп</content>
+  <content>CommonModule.РаботаСGTIOnlineВызовСервераПовтИсп</content>
   <content>CommonTemplate.РаботаСGTIOnlineМакет</content>
+  <content>CommonTemplate.РаботаСGTIOnline_ШаблоныЗапросов</content>
   <parentSubsystem>Subsystem.GTIONLINE</parentSubsystem>
 </mdclass:Subsystem>

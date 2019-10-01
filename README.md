@@ -8,6 +8,12 @@
 
 Проект 1С Enterprise Development Tools в каталоге "conf/Prototype"
 
+### Версия 0.3.2.05
+
+Добавлен макет, для хранения шаблонов запросов сервиса;
+Добавлена работа со скважинами и стволами [issues#2](https://github.com/johnnyshut/witsml_integration/issues/2);
+Исправлены ошибки.
+
 ### Версия 0.2.3.01
 
 Обновлён README.md;
