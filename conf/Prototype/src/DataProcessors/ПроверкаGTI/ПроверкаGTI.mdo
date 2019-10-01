@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95dfa1d8-9652-4e32-907a-b68db947cf58">
+  <producedTypes>
+    <objectType typeId="fbccf907-cace-4ac6-a70a-6a721efdea87" valueTypeId="cb7dbc52-c22f-409d-a78f-54e612169d70"/>
+    <managerType typeId="fbbfc44d-46e6-401e-a7e3-3bb81354364f" valueTypeId="aecdb2a7-c57c-448d-bc6f-91749cd3b602"/>
+  </producedTypes>
+  <name>ПроверкаGTI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка GTI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаGTI.Form.Форма</defaultForm>
+  <forms uuid="c51aaec9-4add-4c6f-a1c9-306a020e7539">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
