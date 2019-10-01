@@ -3,7 +3,7 @@
   <name>РаботаСGTIOnlineВызовСервераПовтИсп</name>
   <synonym>
     <key>ru</key>
-    <value>Работа СGTIOnline (ВызовСервера, Повторное использование)</value>
+    <value>Работа СGTIOnline (Вызов сервера, Повторное использование)</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>
