@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec25d5f7-b0c9-4165-a7be-bb6125e11092">
-  <name>РаботаСGTIOnline_ШаблоныЗапросов</name>
-  <synonym>
-    <key>ru</key>
-    <value>Работа с GTI-Online (Шаблоны запросов)</value>
-  </synonym>
-</mdclass:CommonTemplate>
