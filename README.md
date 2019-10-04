@@ -8,6 +8,10 @@
 
 Проект 1С Enterprise Development Tools в каталоге "conf/Prototype"
 
+## Участие в проекте
+
+Добро пожаловать! [См. правила в соответствующем разделе](CONTRIBUTING.md)
+
 ### Версия 0.3.3.03
 
 Добавлена возможность при получении шаблонов запросов устанавливать параметры из формы [issues#4](https://github.com/johnnyshut/witsml_integration/issues/4);
