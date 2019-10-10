@@ -21,7 +21,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt; &lt;wells xmlns="http://www.witsml.org/schemas/131"&gt; &lt;well uid="%1" uidWell="%2"&gt; &lt;name/&gt;&lt;operator/&gt;&lt;nameLegal/&gt;&lt;rigContacts/&gt;&lt;/well&gt; &lt;/wells&gt;</v8:content>
+							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt; &lt;wells xmlns="http://www.witsml.org/schemas/131"&gt; &lt;well uid="%uidWell%" uidWell=""&gt; &lt;name/&gt;&lt;operator/&gt;&lt;nameLegal/&gt;&lt;rigContacts/&gt;&lt;/well&gt; &lt;/wells&gt;</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -37,7 +37,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt; &lt;wellbores xmlns="http://www.witsml.org/schemas/131"&gt; &lt;wellbore uid="%1" uidWell="%2"&gt; &lt;nameWell/&gt;&lt;name/&gt;&lt;purposeWellbore/&gt;&lt;statusWellbore/&gt;&lt;typeWellbore/&gt;&lt;/wellbore&gt; &lt;/wellbores&gt;</v8:content>
+							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt; &lt;wellbores xmlns="http://www.witsml.org/schemas/131"&gt; &lt;wellbore uid="%uidWellbore%" uidWell="%uidWell%"&gt; &lt;nameWell/&gt;&lt;name/&gt;&lt;purposeWellbore/&gt;&lt;statusWellbore/&gt;&lt;typeWellbore/&gt;&lt;/wellbore&gt; &lt;/wellbores&gt;</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -49,27 +49,163 @@
 		<row>
 			<c>
 				<c>
-					<f>0</f>
+					<f>1</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;logs version="1.3.1.1" xmlns="http://www.witsml.org/schemas/131"&gt;&lt;log uidWell="%1" uidWellbore="%2" uid=""&gt;&lt;logCurveInfo uid=""&gt;&lt;logHeader/&gt;&lt;/logCurveInfo&gt; &lt;/log&gt; &lt;/logs&gt;</v8:content>
+							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;logs version="1.3.1.1" xmlns="http://www.witsml.org/schemas/131"&gt;&lt;log uidWell="%uidWell%" uidWellbore="%uidWellbore%" uid=""&gt;&lt;/log&gt; &lt;/logs&gt;</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;logs xmlns="http://www.witsml.org/schemas/131" version="1.3.1.1"&gt;&lt;log uid="%uidLog%" uidWell="%uidWell%" uidWellbore="%uidWellbore%"&gt;&lt;indexType&gt;%indexType%&lt;/indexType&gt;&lt;indexCurve&gt;%indexCurve%&lt;/indexCurve&gt;&lt;startDateTimeIndex&gt;%startDateTimeIndex%&lt;/startDateTimeIndex&gt;&lt;endDateTimeIndex&gt;%endDateTimeIndex%&lt;/endDateTimeIndex&gt;&lt;logCurveInfo uid="%uidLogCurveInfo%"&gt;&lt;/logCurveInfo&gt;&lt;logData/&gt;&lt;/log&gt;&lt;/logs&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>1</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>1</defaultFormatIndex>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>9</height>
+	<vgRows>9</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>log</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>5</beginRow>
 			<endRow>5</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>log_Data</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>7</beginRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
