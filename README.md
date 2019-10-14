@@ -6,7 +6,7 @@
 
 Документация от разработчиков протокола [WITSML_Core_API_Version_1.3.1.doc](doc/WITSML_Core_API_Version_1.3.1.doc)
 
-Проект 1С Enterprise Development Tools в каталоге "conf/Prototype"
+Проект 1С Enterprise Development Tools в каталоге по [ссылке](https://github.com/johnnyshut/witsml_integration/tree/master/conf/Prototype)
 
 ## Участие в проекте
 
