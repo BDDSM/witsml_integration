@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ac4bfca-f96e-4c13-b906-cf9ae87967be">
+  <producedTypes>
+    <objectType typeId="f678e45c-0515-4960-b49f-1dbd1a30bbd5" valueTypeId="5f84280f-a76e-422f-8688-ba064291be5d"/>
+    <refType typeId="a56a7d7b-4bdf-46c6-ba61-e29f83e47aa1" valueTypeId="2a05302c-4989-4f90-990e-3d663dec0bef"/>
+    <selectionType typeId="4c8825ad-c6ff-48a0-9ad5-c16caec0caa5" valueTypeId="64ce4af3-875d-4892-80a5-7e6ebd13b58a"/>
+    <listType typeId="dc152a09-eae1-4728-bc9a-09f31138958e" valueTypeId="4fc549f1-2967-419e-b4c4-a933975389fb"/>
+    <managerType typeId="fdf52df7-71a0-4e0f-912b-f65716839894" valueTypeId="a78d6c24-91f1-40c5-a4b1-b128b756f627"/>
+  </producedTypes>
+  <name>Мнемоники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мнемоники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Мнемоники.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Мнемоник</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Мнемоники</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0365638e-edb1-4f7a-8517-4a10bed5da87">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1372db1-64af-425c-ab92-0a475b894c9e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

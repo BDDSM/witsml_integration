@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ПроверкаGTI</content>
   <content>Role.ПодсистемаGTIONLINE</content>
+  <content>Catalog.Мнемоники</content>
   <subsystems>СпециальныеОбъекты</subsystems>
 </mdclass:Subsystem>

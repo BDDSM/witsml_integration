@@ -2728,11 +2728,11 @@
             <rowFilter xsi:type="core:UndefinedValue"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>ГруппаОтборЛперации</name>
+            <name>ГруппаОтборОперации</name>
             <id>280</id>
             <items xsi:type="form:FormGroup">
-              <name>Группа1</name>
-              <id>274</id>
+              <name>ГруппаЛевоОтборДанныхОпераций</name>
+              <id>276</id>
               <items xsi:type="form:FormField">
                 <name>Отбор_uidLog</name>
                 <id>282</id>
@@ -2764,205 +2764,6 @@
                 <contextMenu>
                   <name>Отбор_uidLogКонтекстноеМеню</name>
                   <id>283</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <clearButton>true</clearButton>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
-              </items>
-              <items xsi:type="form:FormField">
-                <name>Отбор_indexType</name>
-                <id>259</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Отбор_indexType</segments>
-                  </paths>
-                </dataPath>
-                <extendedTooltip>
-                  <name>Отбор_indexTypeРасширеннаяПодсказка</name>
-                  <id>261</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>Отбор_indexTypeКонтекстноеМеню</name>
-                  <id>260</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <clearButton>true</clearButton>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
-              </items>
-              <items xsi:type="form:FormField">
-                <name>Отбор_indexCurve</name>
-                <id>262</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Отбор_indexCurve</segments>
-                  </paths>
-                </dataPath>
-                <extendedTooltip>
-                  <name>Отбор_indexCurveРасширеннаяПодсказка</name>
-                  <id>264</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>Отбор_indexCurveКонтекстноеМеню</name>
-                  <id>263</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <clearButton>true</clearButton>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
-              </items>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Группа1</value>
-              </title>
-              <toolTip>
-                <key>ru</key>
-                <value>Группа1</value>
-              </toolTip>
-              <extendedTooltip>
-                <name>Группа1РасширеннаяПодсказка</name>
-                <id>275</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>Vertical</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>DontUse</currentRowUse>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormGroup">
-              <name>Группа2</name>
-              <id>276</id>
-              <items xsi:type="form:FormField">
-                <name>Отбор_uidLogCurveInfo</name>
-                <id>271</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Отбор_uidLogCurveInfo</segments>
-                  </paths>
-                </dataPath>
-                <extendedTooltip>
-                  <name>Отбор_uidLogCurveInfoРасширеннаяПодсказка</name>
-                  <id>273</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>Отбор_uidLogCurveInfoКонтекстноеМеню</name>
-                  <id>272</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3098,15 +2899,214 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа2</value>
+                <value>Левый столбец отбора данных операций</value>
               </title>
               <toolTip>
                 <key>ru</key>
-                <value>Группа2</value>
+                <value>Группа лево отбор данных операций</value>
               </toolTip>
               <extendedTooltip>
-                <name>Группа2РасширеннаяПодсказка</name>
+                <name>ГруппаЛевоОтборДанныхОперацийРасширеннаяПодсказка</name>
                 <id>277</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>Vertical</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>DontUse</currentRowUse>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormGroup">
+              <name>ГруппаПравоОтборДанныхОпераций</name>
+              <id>274</id>
+              <items xsi:type="form:FormField">
+                <name>Отбор_indexType</name>
+                <id>259</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>Отбор_indexType</segments>
+                  </paths>
+                </dataPath>
+                <extendedTooltip>
+                  <name>Отбор_indexTypeРасширеннаяПодсказка</name>
+                  <id>261</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Отбор_indexTypeКонтекстноеМеню</name>
+                  <id>260</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <clearButton>true</clearButton>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>Отбор_indexCurve</name>
+                <id>262</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>Отбор_indexCurve</segments>
+                  </paths>
+                </dataPath>
+                <extendedTooltip>
+                  <name>Отбор_indexCurveРасширеннаяПодсказка</name>
+                  <id>264</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Отбор_indexCurveКонтекстноеМеню</name>
+                  <id>263</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <clearButton>true</clearButton>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>Отбор_uidLogCurveInfo</name>
+                <id>271</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>Отбор_uidLogCurveInfo</segments>
+                  </paths>
+                </dataPath>
+                <extendedTooltip>
+                  <name>Отбор_uidLogCurveInfoРасширеннаяПодсказка</name>
+                  <id>273</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>Отбор_uidLogCurveInfoКонтекстноеМеню</name>
+                  <id>272</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <clearButton>true</clearButton>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Правый столбец отбора данных операций</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Группа право отбор данных операций</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>ГруппаПравоОтборДанныхОперацийРасширеннаяПодсказка</name>
+                <id>275</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3135,14 +3135,14 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Отбор лперации</value>
+              <value>Отбор операции</value>
             </title>
             <toolTip>
               <key>ru</key>
-              <value>Группа отбор лперации</value>
+              <value>Группа отбор операции</value>
             </toolTip>
             <extendedTooltip>
-              <name>ГруппаОтборЛперацииРасширеннаяПодсказка</name>
+              <name>ГруппаОтборОперацииРасширеннаяПодсказка</name>
               <id>281</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4601,8 +4601,7 @@
     </title>
     <id>22</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Мнемоники</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4655,8 +4654,7 @@
     </title>
     <id>25</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Мнемоники</types>
     </valueType>
     <view>
       <common>true</common>

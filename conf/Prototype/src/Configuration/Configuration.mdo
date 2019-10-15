@@ -25,11 +25,11 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.3</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.4</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Прототип бибилиотеки интеграции GTI-Online, редакция 0.4</value>
+    <value>Прототип библиотеки интеграции GTI-Online, редакция 0.4</value>
   </detailedInformation>
   <copyright>
     <key>ru</key>
@@ -53,6 +53,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.GTIONLINE</subsystems>
+  <subsystems>Subsystem.ИнструментыРазработчика</subsystems>
   <subsystems>Subsystem.СтандартныеОбъекты</subsystems>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
@@ -68,6 +69,9 @@
   <commonTemplates>CommonTemplate.РаботаСGTIOnlineМакет</commonTemplates>
   <commonModules>CommonModule.РаботаСGTIOnlineВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСGTIOnlineВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочникамиВызовСервера</commonModules>
   <wsReferences>WSReference.GTIONLINE</wsReferences>
+  <catalogs>Catalog.Мнемоники</catalogs>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента_УФ</dataProcessors>
   <dataProcessors>DataProcessor.ПроверкаGTI</dataProcessors>
 </mdclass:Configuration>

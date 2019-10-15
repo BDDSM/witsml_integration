@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fa58b43-5a2c-484d-b244-5eebd3ad1d78">
+  <name>РаботаСоСправочникамиВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа со справочниками (Вызов сервера)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
