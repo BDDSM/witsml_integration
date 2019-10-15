@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма &quot;Фобизнес&quot;</vendor>
-  <version>0.4.1.01</version>
+  <version>0.4.2.07</version>
   <includeHelpInContents>true</includeHelpInContents>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
