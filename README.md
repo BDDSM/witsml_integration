@@ -6,11 +6,18 @@
 
 Документация от разработчиков протокола [WITSML_Core_API_Version_1.3.1.doc](doc/WITSML_Core_API_Version_1.3.1.doc)
 
-Проект 1С Enterprise Development Tools в каталоге "conf/Prototype"
+Проект 1С Enterprise Development Tools в каталоге по [ссылке](https://github.com/johnnyshut/witsml_integration/tree/master/conf/Prototype)
 
 ## Участие в проекте
 
 Добро пожаловать! [См. правила в соответствующем разделе](CONTRIBUTING.md)
+
+### Версия 0.4.1.01
+
+На отдельной вкладке вывел таблицу с операциями [issues#7](https://github.com/johnnyshut/witsml_integration/issues/7)
+Исправил ошибку повторного заполнения параметров запросов [issues#6](https://github.com/johnnyshut/witsml_integration/issues/6)
+Изменил порядок заполнения запросов [issues#5](https://github.com/johnnyshut/witsml_integration/issues/5)
+Вывел параметры запроса как поля ввода на форме [issues#4](https://github.com/johnnyshut/witsml_integration/issues/4)
 
 ### Версия 0.3.3.03
 
