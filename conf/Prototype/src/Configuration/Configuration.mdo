@@ -53,7 +53,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.GTIONLINE</subsystems>
-  <subsystems>Subsystem.ИнструментыРазработчика</subsystems>
   <subsystems>Subsystem.СтандартныеОбъекты</subsystems>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
@@ -71,7 +70,5 @@
   <commonModules>CommonModule.РаботаСGTIOnlineВызовСервераПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСоСправочникамиВызовСервера</commonModules>
   <wsReferences>WSReference.GTIONLINE</wsReferences>
-  <catalogs>Catalog.Мнемоники</catalogs>
-  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзТабличногоДокумента_УФ</dataProcessors>
   <dataProcessors>DataProcessor.ПроверкаGTI</dataProcessors>
 </mdclass:Configuration>

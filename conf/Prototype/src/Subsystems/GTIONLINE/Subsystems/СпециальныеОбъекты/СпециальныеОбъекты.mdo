@@ -11,5 +11,6 @@
   <content>CommonModule.РаботаСGTIOnlineВызовСервераПовтИсп</content>
   <content>CommonTemplate.РаботаСGTIOnlineМакет</content>
   <content>CommonTemplate.РаботаСGTIOnline_ШаблоныЗапросов</content>
+  <content>CommonModule.РаботаСоСправочникамиВызовСервера</content>
   <parentSubsystem>Subsystem.GTIONLINE</parentSubsystem>
 </mdclass:Subsystem>

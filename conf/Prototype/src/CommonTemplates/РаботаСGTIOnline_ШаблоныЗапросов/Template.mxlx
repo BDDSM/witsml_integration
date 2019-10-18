@@ -92,6 +92,12 @@
 			<c>
 				<c>
 					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;logs xmlns="http://www.witsml.org/schemas/131" version="1.3.1.1"&gt;&lt;log uid="%uidLog%" uidWell="%uidWell%" uidWellbore="%uidWellbore%"&gt;&lt;indexType/&gt;&lt;indexCurve/&gt;&lt;startDateTimeIndex/&gt;&lt;endDateTimeIndex/&gt;&lt;logCurveInfo uid=""&gt;&lt;/logCurveInfo&gt;&lt;logHeader/&gt;&lt;/log&gt;&lt;/logs&gt;</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -188,8 +194,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>1</defaultFormatIndex>
-	<height>9</height>
-	<vgRows>9</vgRows>
+	<height>10</height>
+	<vgRows>10</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>log</name>
 		<area>
@@ -206,6 +212,16 @@
 			<type>Rows</type>
 			<beginRow>7</beginRow>
 			<endRow>7</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>log_Mnemoniki</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>9</beginRow>
+			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

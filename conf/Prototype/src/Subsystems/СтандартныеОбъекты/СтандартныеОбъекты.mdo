@@ -15,4 +15,5 @@
   <content>Role.ПолныеПрава</content>
   <content>Role.АдминистраторСистемы</content>
   <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>CommonModule.РаботаСоСправочникамиВызовСервера</content>
 </mdclass:Subsystem>
