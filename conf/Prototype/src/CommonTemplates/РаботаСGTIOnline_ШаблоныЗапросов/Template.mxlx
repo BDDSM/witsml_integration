@@ -118,6 +118,12 @@
 			<c>
 				<c>
 					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>%3Cwellbores%20version%3D%221.2.0%22%20xmlns%3D%22http%3A%2F%2Fwww.witsml.org%2Fschemas%2F120%22%3E%0A%20%20%3Cwellbore%20uidWell%3D%22$uidWell$%22%20uidWellbore%3D%22$uidWellbore$%22%3E%0A%20%20%20%20%3CnameWellbore%2F%3E%0A%20%20%20%20%3CnameWell%2F%3E%0A%20%20%20%20%3CcommonData%3E%0A%20%20%20%20%3C%2FcommonData%3E%0A%20%20%3C%2Fwellbore%3E%0A%3C%2Fwellbores%3E</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -194,8 +200,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>1</defaultFormatIndex>
-	<height>10</height>
-	<vgRows>10</vgRows>
+	<height>12</height>
+	<vgRows>12</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>log</name>
 		<area>
@@ -242,6 +248,16 @@
 			<type>Rows</type>
 			<beginRow>3</beginRow>
 			<endRow>3</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Режим1_Getwellbore</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>11</beginRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>

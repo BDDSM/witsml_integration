@@ -5,12 +5,18 @@
 ## В репозитории хранится
 
 Документация от разработчиков протокола [WITSML_Core_API_Version_1.3.1.doc](doc/WITSML_Core_API_Version_1.3.1.doc)
+Дополнительный режим работы с сервисом [GTI-online API.html](doc/GTI-online API.html)
 
 Проект 1С Enterprise Development Tools в каталоге по [ссылке](https://github.com/johnnyshut/witsml_integration/tree/master/conf/Prototype)
 
 ## Участие в проекте
 
 Добро пожаловать! [См. правила в соответствующем разделе](CONTRIBUTING.md)
+
+### Версия 0.5.2.01
+
+ - Реализован новый режим работы с сервисом, через http post запросы
+ - Обновление readme.md
 
 ### Версия 0.4.2.07
 
